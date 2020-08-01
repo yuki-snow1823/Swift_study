@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B60B273D24D30FF5003B837E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B273C24D30FF5003B837E /* AppDelegate.swift */; };
-		B60B273F24D30FF5003B837E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B273E24D30FF5003B837E /* SceneDelegate.swift */; };
-		B60B274124D30FF5003B837E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B274024D30FF5003B837E /* ViewController.swift */; };
-		B60B274424D30FF5003B837E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B274224D30FF5003B837E /* Main.storyboard */; };
-		B60B274624D30FFD003B837E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60B274524D30FFD003B837E /* Assets.xcassets */; };
-		B60B274924D30FFD003B837E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B274724D30FFD003B837E /* LaunchScreen.storyboard */; };
+		B660801E24D5762D00F01392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660801D24D5762D00F01392 /* AppDelegate.swift */; };
+		B660802024D5762D00F01392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660801F24D5762D00F01392 /* SceneDelegate.swift */; };
+		B660802224D5762D00F01392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660802124D5762D00F01392 /* ViewController.swift */; };
+		B660802524D5762D00F01392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B660802324D5762D00F01392 /* Main.storyboard */; };
+		B660802724D5763000F01392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B660802624D5763000F01392 /* Assets.xcassets */; };
+		B660802A24D5763000F01392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B660802824D5763000F01392 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B60B273924D30FF4003B837E /* MyFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B60B273C24D30FF5003B837E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B60B273E24D30FF5003B837E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B60B274024D30FF5003B837E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B60B274324D30FF5003B837E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B60B274524D30FFD003B837E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B60B274824D30FFD003B837E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B60B274A24D30FFD003B837E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B660801A24D5762C00F01392 /* Myjanken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myjanken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B660801D24D5762D00F01392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B660801F24D5762D00F01392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B660802124D5762D00F01392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B660802424D5762D00F01392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B660802624D5763000F01392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B660802924D5763000F01392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B660802B24D5763000F01392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B60B273624D30FF4003B837E /* Frameworks */ = {
+		B660801724D5762C00F01392 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B60B273024D30FF4003B837E = {
+		B660801124D5762C00F01392 = {
 			isa = PBXGroup;
 			children = (
-				B60B273B24D30FF4003B837E /* MyFirst */,
-				B60B273A24D30FF4003B837E /* Products */,
+				B660801C24D5762C00F01392 /* Myjanken */,
+				B660801B24D5762C00F01392 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B60B273A24D30FF4003B837E /* Products */ = {
+		B660801B24D5762C00F01392 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B60B273924D30FF4003B837E /* MyFirst.app */,
+				B660801A24D5762C00F01392 /* Myjanken.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B60B273B24D30FF4003B837E /* MyFirst */ = {
+		B660801C24D5762C00F01392 /* Myjanken */ = {
 			isa = PBXGroup;
 			children = (
-				B60B273C24D30FF5003B837E /* AppDelegate.swift */,
-				B60B273E24D30FF5003B837E /* SceneDelegate.swift */,
-				B60B274024D30FF5003B837E /* ViewController.swift */,
-				B60B274224D30FF5003B837E /* Main.storyboard */,
-				B60B274524D30FFD003B837E /* Assets.xcassets */,
-				B60B274724D30FFD003B837E /* LaunchScreen.storyboard */,
-				B60B274A24D30FFD003B837E /* Info.plist */,
+				B660801D24D5762D00F01392 /* AppDelegate.swift */,
+				B660801F24D5762D00F01392 /* SceneDelegate.swift */,
+				B660802124D5762D00F01392 /* ViewController.swift */,
+				B660802324D5762D00F01392 /* Main.storyboard */,
+				B660802624D5763000F01392 /* Assets.xcassets */,
+				B660802824D5763000F01392 /* LaunchScreen.storyboard */,
+				B660802B24D5763000F01392 /* Info.plist */,
 			);
-			path = MyFirst;
+			path = Myjanken;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B60B273824D30FF4003B837E /* MyFirst */ = {
+		B660801924D5762C00F01392 /* Myjanken */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B60B274D24D30FFD003B837E /* Build configuration list for PBXNativeTarget "MyFirst" */;
+			buildConfigurationList = B660802E24D5763000F01392 /* Build configuration list for PBXNativeTarget "Myjanken" */;
 			buildPhases = (
-				B60B273524D30FF4003B837E /* Sources */,
-				B60B273624D30FF4003B837E /* Frameworks */,
-				B60B273724D30FF4003B837E /* Resources */,
+				B660801624D5762C00F01392 /* Sources */,
+				B660801724D5762C00F01392 /* Frameworks */,
+				B660801824D5762C00F01392 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyFirst;
-			productName = MyFirst;
-			productReference = B60B273924D30FF4003B837E /* MyFirst.app */;
+			name = Myjanken;
+			productName = Myjanken;
+			productReference = B660801A24D5762C00F01392 /* Myjanken.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B60B273124D30FF4003B837E /* Project object */ = {
+		B660801224D5762C00F01392 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = com.gmail.y.horikoshi;
+				ORGANIZATIONNAME = "優希 堀越";
 				TargetAttributes = {
-					B60B273824D30FF4003B837E = {
+					B660801924D5762C00F01392 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = B60B273424D30FF4003B837E /* Build configuration list for PBXProject "MyFirst" */;
+			buildConfigurationList = B660801524D5762C00F01392 /* Build configuration list for PBXProject "Myjanken" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B60B273024D30FF4003B837E;
-			productRefGroup = B60B273A24D30FF4003B837E /* Products */;
+			mainGroup = B660801124D5762C00F01392;
+			productRefGroup = B660801B24D5762C00F01392 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B60B273824D30FF4003B837E /* MyFirst */,
+				B660801924D5762C00F01392 /* Myjanken */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B60B273724D30FF4003B837E /* Resources */ = {
+		B660801824D5762C00F01392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60B274924D30FFD003B837E /* LaunchScreen.storyboard in Resources */,
-				B60B274624D30FFD003B837E /* Assets.xcassets in Resources */,
-				B60B274424D30FF5003B837E /* Main.storyboard in Resources */,
+				B660802A24D5763000F01392 /* LaunchScreen.storyboard in Resources */,
+				B660802724D5763000F01392 /* Assets.xcassets in Resources */,
+				B660802524D5762D00F01392 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B60B273524D30FF4003B837E /* Sources */ = {
+		B660801624D5762C00F01392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60B274124D30FF5003B837E /* ViewController.swift in Sources */,
-				B60B273D24D30FF5003B837E /* AppDelegate.swift in Sources */,
-				B60B273F24D30FF5003B837E /* SceneDelegate.swift in Sources */,
+				B660802224D5762D00F01392 /* ViewController.swift in Sources */,
+				B660801E24D5762D00F01392 /* AppDelegate.swift in Sources */,
+				B660802024D5762D00F01392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B60B274224D30FF5003B837E /* Main.storyboard */ = {
+		B660802324D5762D00F01392 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B60B274324D30FF5003B837E /* Base */,
+				B660802424D5762D00F01392 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B60B274724D30FFD003B837E /* LaunchScreen.storyboard */ = {
+		B660802824D5763000F01392 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B60B274824D30FFD003B837E /* Base */,
+				B660802924D5763000F01392 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B60B274B24D30FFD003B837E /* Debug */ = {
+		B660802C24D5763000F01392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B60B274C24D30FFD003B837E /* Release */ = {
+		B660802D24D5763000F01392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,36 +280,34 @@
 			};
 			name = Release;
 		};
-		B60B274E24D30FFD003B837E /* Debug */ = {
+		B660802F24D5763000F01392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LH97K4XS67;
-				INFOPLIST_FILE = MyFirst/Info.plist;
+				INFOPLIST_FILE = Myjanken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.MyFirst";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.Myjanken";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B60B274F24D30FFD003B837E /* Release */ = {
+		B660803024D5763000F01392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LH97K4XS67;
-				INFOPLIST_FILE = MyFirst/Info.plist;
+				INFOPLIST_FILE = Myjanken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.MyFirst";
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners.Myjanken";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B60B273424D30FF4003B837E /* Build configuration list for PBXProject "MyFirst" */ = {
+		B660801524D5762C00F01392 /* Build configuration list for PBXProject "Myjanken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B60B274B24D30FFD003B837E /* Debug */,
-				B60B274C24D30FFD003B837E /* Release */,
+				B660802C24D5763000F01392 /* Debug */,
+				B660802D24D5763000F01392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B60B274D24D30FFD003B837E /* Build configuration list for PBXNativeTarget "MyFirst" */ = {
+		B660802E24D5763000F01392 /* Build configuration list for PBXNativeTarget "Myjanken" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B60B274E24D30FFD003B837E /* Debug */,
-				B60B274F24D30FFD003B837E /* Release */,
+				B660802F24D5763000F01392 /* Debug */,
+				B660803024D5763000F01392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B60B273124D30FF4003B837E /* Project object */;
+	rootObject = B660801224D5762C00F01392 /* Project object */;
 }
