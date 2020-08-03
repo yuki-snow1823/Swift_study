@@ -15,11 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0bl-3B-RQn">
-                                <rect key="frame" x="0.0" y="44" width="414" height="578"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="これからジャンケンをします！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WS0-oP-T29">
-                                <rect key="frame" x="0.0" y="622" width="414" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="これからジャンケンをします！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WS0-oP-T29">
+                                <rect key="frame" x="0.0" y="730" width="414" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="7dZ-fA-IQf"/>
                                 </constraints>
@@ -27,19 +24,23 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" verticalHuggingPriority="100" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAZ-ES-thK">
-                                <rect key="frame" x="0.0" y="662" width="414" height="200"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" verticalHuggingPriority="100" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAZ-ES-thK">
+                                <rect key="frame" x="0.0" y="770" width="414" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="J3g-JR-oxf"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Z5k-rn-0pY"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="nlU-gD-O1b"/>
+                                    <constraint firstAttribute="height" constant="100" id="wfo-6E-2Zi"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="zoQ-Qu-k9S"/>
                                 </constraints>
                                 <state key="normal" title="ジャンケンスタート！">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="suffleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qfx-sS-ej7"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0bl-3B-RQn">
+                                <rect key="frame" x="10" y="44" width="394" height="658"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.94901960784313721" blue="0.77647058823529413" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -58,6 +59,7 @@
                     </view>
                     <connections>
                         <outlet property="answeImageView" destination="0bl-3B-RQn" id="4Dc-MP-m7d"/>
+                        <outlet property="answerLabel" destination="WS0-oP-T29" id="ZM9-bd-LLd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
