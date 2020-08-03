@@ -23,22 +23,25 @@ class ViewController: UIViewController {
     var answerNumber = 0
     
     @IBAction func suffleAction(_ sender: Any) {
-        if answerNumber == 1 {
+        answerNumber = Int.random(in: 0 ..< 3)
+        
+        if answerNumber == 0 {
             answerLabel.text = "グー"
             answeImageView.image = UIImage(named: "gu")
 
         }
-        else if answerNumber == 2 {
+        else if answerNumber == 1 {
             answerLabel.text = "チョキ"
             answeImageView.image = UIImage(named: "choki")
             
         }
-        else if answerNumber == 3 {
+        else if answerNumber == 2 {
             answerLabel.text = "パー"
             answeImageView.image = UIImage(named: "pa")
             
         }
-        answerNumber = answerNumber + 1
+//        answerNumber = answerNumber + 1
+//        ランダムが上にあるから削除
     }
     
 }
