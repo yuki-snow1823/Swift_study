@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MyMusic
+//  Mymap
 //
-//  Created by Horikoshi Yuki on 2020/08/06.
+//  Created by Horikoshi Yuki on 2020/08/09.
 //  Copyright © 2020 優希 堀越. All rights reserved.
 //
 
