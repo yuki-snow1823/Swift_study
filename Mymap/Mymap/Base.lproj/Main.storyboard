@@ -15,20 +15,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="SK4-hf-taF">
-                                <rect key="frame" x="159" y="171" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="SK4-hf-taF">
+                                <rect key="frame" x="0.0" y="44" width="414" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="3xf-Uh-rEK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search"/>
                             </textField>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Z3c-eF-0Du">
-                                <rect key="frame" x="87" y="247" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Z3c-eF-0Du">
+                                <rect key="frame" x="0.0" y="78" width="414" height="784"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SK4-hf-taF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JIm-0y-yFj"/>
+                            <constraint firstItem="Z3c-eF-0Du" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NRC-Zd-tAQ"/>
+                            <constraint firstItem="SK4-hf-taF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UQ5-sB-9Fn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SK4-hf-taF" secondAttribute="trailing" id="UnP-kn-3Kw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z3c-eF-0Du" secondAttribute="trailing" id="VRC-i1-bzl"/>
+                            <constraint firstItem="Z3c-eF-0Du" firstAttribute="top" secondItem="SK4-hf-taF" secondAttribute="bottom" id="b9a-kL-U2f"/>
+                            <constraint firstItem="Z3c-eF-0Du" firstAttribute="top" secondItem="SK4-hf-taF" secondAttribute="bottom" id="e4J-28-SVx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z3c-eF-0Du" secondAttribute="bottom" id="ltx-kG-kDO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="dispMap" destination="Z3c-eF-0Du" id="ob5-9z-eva"/>
+                        <outlet property="inputText" destination="SK4-hf-taF" id="nTo-vT-j2r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
